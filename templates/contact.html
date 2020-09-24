@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Блог
+{% endblock %}
+
+{% block body %}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in you r HEAD tag ---------->
+
+  <!-- Contact Us Section -->
+       <section class="Material-cont act-section section-padding section-dark">
+      <div class="container">
+           <div class="row">
+               <!-- Section Titile  -->
+              <div class="col-md- 12 wow animated fadeInLeft" data-wow-delay=".2s">
+                  <h1 class="sect ion-title">Здесь вы можете связаться со мной</h1><br><br>
+              </div>
+          </  div>
+          <div c  lass="row">
+               <!-- Section Titile  -->
+              <div class="col-md- 6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                <p>Тут какой то б ляцкий текст говорящий о том, что мне типо есть дело о тем, что кто то пишет. идите нахуй пиздюки ебаные, я панк, мне похуй</p>
+
+                <div class="find  - widget">
+                 Компания:  <a hr ef="https://hostriver.ro">Bazilik</a>
+                </div>
+
+                 <div class="find  - widget">
+                  Телефон:  <a hr ef="#">+7 926 526 81 68</a>
+                </div>
+
+                 <div class="find  - widget">
+                  Telegram:  <a h ref="https://uny.ro">@DanFleishman</a>
+                </div>
+                  <div class="find- widget">
+                   Вконтакте: <a  href="#">Дан Флейшман</a>
+                </div>
+                </div>
+                <!-- contact form - ->
+              <div class="col-md- 6 wow animated fadeInRight" data-wow-delay=".2s">
+                  <form class="sh ake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                      <!-- Name - ->
+                      <div class= "form-group label-floating">
+                        <label cl ass="control-label" for="name">Имя</label>
+                        <input cl ass="form-control" id="name" type="text" name="name" placeholder="Как я могу к Вам обращаться?" required data-error="Введите ваше имя">
+                        <div clas s="help-block with-errors"></div>
+                      </div>
+                        <!-- email  -->
+                      <div class= "form-group label-floating">
+                        <label cl ass="control-label" for="email">Email</label>
+                        <input cl ass="form-control" id="email" type="email" name="email" placeholder="name@example.com" required data-error="Введите Email">
+                        <div clas s="help-block with-errors"></div>
+                      </div>
+                        <!-- Subjec t -->
+                      <div class= "form-group label-floating">
+                        <label cl ass="control-label">Тема</label>
+                        <input cl ass="form-control" id="msg_subject" type="text" name="subject" placeholder="Введите тему обращения или вопрос" required data-error="Введите ваш вопрос">
+                        <div clas s="help-block with-errors"></div>
+                      </div>
+                        <!-- Messag e -->
+                      <div class= "form-group label-floating">
+                          <label  for="message" class="control-label">Сообщение</label>
+                          <textarea ea class="form-control" rows="3" id="message" name="message" placeholder="Полностью опишитие ваше обращение или вопрос" required data-error="Напишите ваше сообщение"></textarea>
+                          <div cl ass="help-block with-errors"></div>
+                      </div>
+                        <!-- Form S ubmit -->
+                      <div class="form-submit mt-5">
+                          <button type="button" class="btn btn-primary" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Отправить </button>
+                          <div id="msgSubmit" class="h3 text-center hidden"></div>
+                          <div class="clearfix"></div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </section>
+<!--Section: Contact v.2-->
+{% endblock %}

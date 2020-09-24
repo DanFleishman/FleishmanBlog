@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="085e3cbe-5dc8-4866-bbeb-770cbd12a31a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bdU1OrpTP2SYKAPsOEiLP8mezK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/posts/templates/posts" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="FleishmanBlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Flask/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FleishmanBlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Flask/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="085e3cbe-5dc8-4866-bbeb-770cbd12a31a" name="Default Changelist" comment="" />
+      <created>1588961248262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588961248262</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="472" y="178" key="#Web_Browsers" timestamp="1589028654957">
+      <screen x="0" y="18" width="1366" height="750" />
+    </state>
+    <state x="472" y="178" key="#Web_Browsers/0.18.1366.750@0.18.1366.750" timestamp="1589028654957" />
+    <state x="98" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589097527930">
+      <screen x="0" y="18" width="1280" height="702" />
+    </state>
+    <state x="98" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.18.1280.702@0.18.1280.702" timestamp="1589097527930" />
+    <state x="425" y="196" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588978758995">
+      <screen x="0" y="18" width="1366" height="750" />
+    </state>
+    <state x="425" y="196" key="#com.intellij.fileTypes.FileTypeChooser/0.18.1366.750@0.18.1366.750" timestamp="1588978758995" />
+    <state x="-4" y="18" width="1374" height="756" key="FileChooserDialogImpl" timestamp="1589028639393">
+      <screen x="0" y="18" width="1366" height="750" />
+    </state>
+    <state x="-4" y="18" width="1374" height="756" key="FileChooserDialogImpl/0.18.1366.750@0.18.1366.750" timestamp="1589028639393" />
+    <state width="1257" height="169" key="GridCell.Tab.0.bottom" timestamp="1589143314364">
+      <screen x="0" y="18" width="1280" height="702" />
+    </state>
+    <state width="1257" height="169" key="GridCell.Tab.0.bottom/0.18.1280.702@0.18.1280.702" timestamp="1589143314364" />
+    <state width="1343" height="185" key="GridCell.Tab.0.bottom/0.18.1366.750@0.18.1366.750" timestamp="1589037968401" />
+    <state width="1257" height="169" key="GridCell.Tab.0.center" timestamp="1589143314363">
+      <screen x="0" y="18" width="1280" height="702" />
+    </state>
+    <state width="1257" height="169" key="GridCell.Tab.0.center/0.18.1280.702@0.18.1280.702" timestamp="1589143314363" />
+    <state width="1343" height="185" key="GridCell.Tab.0.center/0.18.1366.750@0.18.1366.750" timestamp="1589037968399" />
+    <state width="1257" height="169" key="GridCell.Tab.0.left" timestamp="1589143314362">
+      <screen x="0" y="18" width="1280" height="702" />
+    </state>
+    <state width="1257" height="169" key="GridCell.Tab.0.left/0.18.1280.702@0.18.1280.702" timestamp="1589143314362" />
+    <state width="1343" height="185" key="GridCell.Tab.0.left/0.18.1366.750@0.18.1366.750" timestamp="1589037968398" />
+    <state width="1257" height="169" key="GridCell.Tab.0.right" timestamp="1589143314364">
+      <screen x="0" y="18" width="1280" height="702" />
+    </state>
+    <state width="1257" height="169" key="GridCell.Tab.0.right/0.18.1280.702@0.18.1280.702" timestamp="1589143314364" />
+    <state width="1343" height="185" key="GridCell.Tab.0.right/0.18.1366.750@0.18.1366.750" timestamp="1589037968400" />
+    <state x="298" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589034457361">
+      <screen x="0" y="18" width="1366" height="750" />
+    </state>
+    <state x="298" y="18" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.18.1366.750@0.18.1366.750" timestamp="1589034457361" />
+    <state x="346" y="88" width="672" height="678" key="search.everywhere.popup" timestamp="1588962950987">
+      <screen x="0" y="18" width="1366" height="750" />
+    </state>
+    <state x="346" y="88" width="672" height="678" key="search.everywhere.popup/0.18.1366.750@0.18.1366.750" timestamp="1588962950987" />
+  </component>
+</project>

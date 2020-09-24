@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ (url_for)('static', filename='css/main.css') }}">
+    <script src="https://kit.fontawesome.com/e07dc72b94.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-red border-bottom shadow-sm">
+      <h5 class="my-0 mr-md-auto font-weight-normal"><a href="/">Fleishman</a></h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href=" {{ url_for('index') }} ">Главная</a>
+        <a class="p-2 text-dark" href=" {{ url_for('about') }} ">Обо мне</a>
+        <a class="p-2 text-dark" href=" {{ url_for('posts.index') }} ">Блог</a>
+        <a class="p-2 text-dark" href=" {{ url_for('photos') }} ">Фотоальбом</a>
+        <a class="p-2 text-dark" href=" {{ url_for('contact') }} ">Обратная связь</a>
+      </nav>
+</div>
+
+<div class="container">
+    {% block body %}{% endblock %}
+</div>
+
+<footer class="container pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <small class="d-block mb-3 text-muted">© 2020 </small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Навигация по сайту</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href=" {{ url_for('index') }} ">Главная</a></li>
+          <li><a class="text-muted" href=" {{ url_for('about') }} ">Обо мне</a></li>
+          <li><a class="text-muted" href=" {{ url_for('posts.index') }} ">Блог</a></li>
+          <li><a class="text-muted" href=" {{ url_for('photos') }} ">фотоальбом</a></li>
+          <li><a class="text-muted" href=" {{ url_for('contact') }} ">Обратная связь</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Социальные сети</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#"><i class="fab fa-vk"></i> Вконтакте</a></li>
+          <li><a class="text-muted" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a class="text-muted" href="#"><i class="fab fa-telegram-plane"></i> Telegram</a></li>
+          <li><a class="text-muted" href="#"><i class="fab fa-github"></i> github</a></li>
+        </ul>
+      </div>
+
+  </footer>
+
+</body>
+</html>
